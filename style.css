@@ -1,0 +1,21 @@
+h2{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: crimson;
+    text-decoration-color: black;
+}
+canvas{
+    animation-name: hello;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes hello {
+    from {box-shadow: 5px 5px 150px crimson;}
+    to {box-shadow: 5px 5px 170px midnightblue;}
+    to {box-shadow: 5px 5px 180px goldenrod;}
+    
+    
+}
